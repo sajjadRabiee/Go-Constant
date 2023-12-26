@@ -5,13 +5,13 @@ import (
 	"fmt"
 )
 
-type constInterface[v any] interface {
+type ConstInterface[v any] interface {
 	fmt.Stringer
 	GetMembers() []v
 	GetDefault() v
 }
 
-func ToConst[v constInterface[v]](value string) (v, error) {
+func ToConst[v ConstInterface[v]](value string) (v, error) {
 	var constInterfaceInstance v
 	for _, member := range constInterfaceInstance.GetMembers() {
 		if member.String() == value {
