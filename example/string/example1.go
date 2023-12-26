@@ -10,6 +10,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
+	fmt.Println(toConst)
 	toConst, err = constant.ToConst[foo]("m2")
 	if err != nil {
 		fmt.Println(err.Error())
