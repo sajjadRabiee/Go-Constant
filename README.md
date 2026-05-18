@@ -1,9 +1,9 @@
 # Go-Constant
 
-[![CI](https://github.com/sajjadRabiee/Go-Constant/actions/workflows/ci.yml/badge.svg)](https://github.com/sajjadRabiee/Go-Constant/actions/workflows/ci.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/sajjadRabiee/Go-Constant.svg)](https://pkg.go.dev/github.com/sajjadRabiee/Go-Constant)
-[![Go Report Card](https://goreportcard.com/badge/github.com/sajjadRabiee/Go-Constant)](https://goreportcard.com/report/github.com/sajjadRabiee/Go-Constant)
-[![codecov](https://codecov.io/gh/sajjadRabiee/Go-Constant/branch/main/graph/badge.svg)](https://codecov.io/gh/sajjadRabiee/Go-Constant)
+[![CI](https://github.com/sajjadrabiee/go-constant/actions/workflows/ci.yml/badge.svg)](https://github.com/sajjadrabiee/go-constant/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sajjadrabiee/go-constant.svg)](https://pkg.go.dev/github.com/sajjadrabiee/go-constant)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sajjadrabiee/go-constant)](https://goreportcard.com/report/github.com/sajjadrabiee/go-constant)
+[![codecov](https://codecov.io/gh/sajjadrabiee/go-constant/branch/main/graph/badge.svg)](https://codecov.io/gh/sajjadrabiee/go-constant)
 
 A tiny, generic Go library for defining typed constant sets with safe string parsing.
 
@@ -16,7 +16,7 @@ Go 1.18+ (generics)
 ## Installation
 
 ```bash
-go get github.com/sajjadRabiee/Go-Constant
+go get github.com/sajjadrabiee/go-constant
 ```
 
 ## Usage
