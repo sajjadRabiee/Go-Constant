@@ -1,5 +1,10 @@
 # Go-Constant
 
+[![CI](https://github.com/sajjadRabiee/Go-Constant/actions/workflows/ci.yml/badge.svg)](https://github.com/sajjadRabiee/Go-Constant/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sajjadRabiee/Go-Constant.svg)](https://pkg.go.dev/github.com/sajjadRabiee/Go-Constant)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sajjadRabiee/Go-Constant)](https://goreportcard.com/report/github.com/sajjadRabiee/Go-Constant)
+[![codecov](https://codecov.io/gh/sajjadRabiee/Go-Constant/branch/main/graph/badge.svg)](https://codecov.io/gh/sajjadRabiee/Go-Constant)
+
 A tiny, generic Go library for defining typed constant sets with safe string parsing.
 
 Go has no built-in enum type. The common workaround — `iota` or typed strings — gives you no way to safely parse an unknown string into a valid constant. Go-Constant fills that gap with a single generic type that works with any value that implements `fmt.Stringer`.
