@@ -11,7 +11,7 @@ Go 1.18+ (generics)
 ## Installation
 
 ```bash
-go get github.com/your-username/Go-Constant
+go get github.com/sajjadRabiee/Go-Constant
 ```
 
 ## Usage

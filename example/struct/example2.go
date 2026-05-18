@@ -1,7 +1,7 @@
 package main
 
 import (
-	constant "Constant"
+	constant "github.com/sajjadRabiee/Go-Constant"
 	"fmt"
 )
 
